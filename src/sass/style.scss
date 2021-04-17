@@ -1,0 +1,56 @@
+@import 'base/variables';
+
+
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	src: url('fonts/MuseoSansCyrl_1.eot');
+	src: local('☺'), url('fonts/MuseoSansCyrl_1.woff') format('woff'), url('fonts/MuseoSansCyrl_1.ttf') format('truetype'), url('fonts/MuseoSansCyrl_1.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face { 
+    font-family: "MuseoSansCyrl700";
+    src: url("../fonts/MuseoSansCyrl700/MuseoSansCyrl700.eot");
+    src: url("../fonts/MuseoSansCyrl700/MuseoSansCyrl700.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansCyrl700/MuseoSansCyrl700.woff") format("woff"),
+    url("../fonts/MuseoSansCyrl700/MuseoSansCyrl700.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face { 
+    font-family: "MuseoSansCyrl300";
+    src: url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.eot");
+    src: url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.woff") format("woff"),
+    url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+* {
+    font-family: 'MuseoSansCyrl', sans-serif;
+}
+.container{
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'promo';
+@import 'header';
+@import 'buttons';
+@import 'advantages';
+@import 'titles';
+@import 'consultation';
+@import 'forms';
+@import 'carousel';
+@import 'catalog';
+@import 'reviews';
+@import 'footer';
+@import 'modal';
+@import 'media';
+@import 'pageup';
+@import 'animation';
+.iframe__google {
+    width: 100%;
+    height: 630px;
+    border: 0;
+}
